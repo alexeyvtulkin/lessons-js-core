@@ -1,0 +1,93 @@
+body,
+html {
+	width: 100%;
+	background: rgb(0,255,250);
+	background: linear-gradient(15deg, rgba(0,255,250,0.1) 0%, rgba(217,255,142,0.2) 37%, rgba(214,255,154,0.3) 57%, rgba(0,184,63,0.3) 91%);
+	font-size: 16px;
+}
+.person {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.person__info {
+    display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+
+}
+.person__contacts {
+    display: flex;
+	justify-content: center;
+	flex-direction: column;
+    
+
+}
+.person__details {
+	width: 50%;
+	margin: auto;
+}
+.avatar {
+	padding-top: 32px;
+
+}
+.avatar__picture {
+
+	border-radius: 50%;
+	width: 400px;
+	border: 32px solid white;
+	margin-bottom: 32px;
+	margin-right: 32px;
+	max-width: 100%;
+	height: auto;
+
+}
+.contacts {
+	/* добавьте ваш код  */
+}
+.contacts__name {
+	font-size: 32px;
+	font-weight: bold;
+}
+.contacts__role {
+	font-size: 19.2px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.contacts__item {
+	/* добавьте ваш код  */
+}
+.contacts__title {
+	font-weight: bold;
+	font-style: italic;
+}
+.contacts__title:after {
+	content: ":";
+}
+
+.contacts__links {
+
+}
+
+
+.contacts__link {
+	font-style: italic;
+	color: grey;
+}
+
+.contacts__link:hover {
+	color: blue;
+}
+.paragraph {
+	font-size: 16px;
+	margin-bottom: 16px;
+
+}
+.paragraph_last {
+	font-size: 16px;
+	margin-bottom: 48px;
+}
