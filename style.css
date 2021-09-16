@@ -1,0 +1,171 @@
+body,
+html {
+	width: 100%;
+	background: rgb(0,255,250);
+	background: linear-gradient(15deg, rgba(0,255,250,0.1) 0%, rgba(217,255,142,0.2) 37%, rgba(214,255,154,0.3) 57%, rgba(0,184,63,0.3) 91%);
+	font-size: 16px;
+}
+.person {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.person__info {
+    display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+
+}
+.person__contacts {
+    display: flex;
+	justify-content: center;
+	flex-direction: column;
+    
+
+}
+
+.dropbutton {
+    background-color: #4CAF50;
+    color: white;
+	font-weight: bold;
+    padding: 16px;
+	margin-top: 28px;
+	border-radius: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+	text-align: center;
+	border-radius: 10px;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+.dropdowncontent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdowncontent a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdowncontent {display: block;}
+
+.dropdown:hover .dropbutton {background-color: #3e8e41;}
+
+.person__details {
+	width: 50%;
+	margin: auto;
+}
+.avatar {
+	padding-top: 32px;
+
+}
+.avatar__picture {
+
+	border-radius: 50%;
+	width: 400px;
+	border: 32px solid white;
+	margin-bottom: 32px;
+	margin-right: 32px;
+	max-width: 100%;
+	height: auto;
+	transition: 1s;
+	
+}
+
+.avatar__picture2 {
+
+display: block;
+	border-radius: 50%;
+	width: 400px;
+	border: 32px solid white;
+	margin-bottom: 32px;
+	margin-right: 32px;
+	max-width: 100%;
+	height: auto;
+	transition: 1s;
+	opacity: 0;
+	position: absolute;
+	z-index: 1000;
+	top:32px
+}
+
+.avatar__picture:hover {
+	cursor: default;
+    transform: rotate(180deg);
+    transition: 1s;
+	opacity: 0;
+	
+	
+} 
+
+.avatar__picture2:hover {
+	cursor: default;
+    transform: rotate(360deg);
+	transition: 1s;
+	opacity: 1;
+
+}
+
+
+.contacts {
+	/* добавьте ваш код  */
+}
+.contacts__name {
+	font-size: 32px;
+	font-weight: bold;
+}
+.contacts__role {
+	font-size: 19.2px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.contacts__item {
+	/* добавьте ваш код  */
+}
+.contacts__title {
+	font-weight: bold;
+	font-style: italic;
+}
+.contacts__title:after {
+	content: ":";
+}
+
+.contacts__links {
+
+}
+
+
+.contacts__link {
+	font-style: italic;
+	color: grey;
+}
+
+.contacts__link:hover {
+	color: blue;
+}
+.paragraph {
+	font-size: 16px;
+	margin-bottom: 16px;
+
+}
+.paragraph_last {
+	font-size: 16px;
+	margin-bottom: 48px;
+}
